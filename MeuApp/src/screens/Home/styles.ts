@@ -10,31 +10,39 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         marginTop: 48,
-        color: '#fff'
+        color: '#6b6b6b'
     },
     dateEvent: {
         fontSize: 16,
-        color: '#fff'
+        color: '#6b6b6b'
     },
     textInput: {
+        flex: 1,
         height: 56,
         backgroundColor: '#1E1E1E',
         borderRadius: 5,
         padding: 16,
         fontSize: 16,
-        marginRight: 12,
+        marginRight: 10,
         fontWeight: 'bold' ,
-        marginTop: 16   
+   
     },
     textButton: {
         fontSize:24,
-        
+        color: '#fff'
     },
     button: {
-        width: 46,
-        height: 46,
+        width: 56,
+        height: 56,
         backgroundColor: '#15e83c',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderRadius: 5
+    },
+    form: {
+        width: '100%',
+        flexDirection: 'row',
+        marginTop: 36,
+        marginBottom: 42
     }
 });
